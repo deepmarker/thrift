@@ -1,0 +1,5 @@
+(library
+ (name thrift_compact)
+ (public_name thrift-compact)
+ (preprocess (pps ppx_jane))
+ (libraries thrift core_kernel.iobuf))

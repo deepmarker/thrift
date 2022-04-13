@@ -1,0 +1,8 @@
+(test
+ (name test)
+ (libraries
+   core
+   thrift
+   thrift-compact
+   core_unix.bigstring_unix
+   alcotest))
